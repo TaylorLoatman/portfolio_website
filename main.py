@@ -2,7 +2,7 @@ from flask import Flask, render_template, send_file
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'sdlkfoinwe4t6ewd2838f398b'
+
 
 @app.route('/')
 def home():
