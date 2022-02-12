@@ -10,7 +10,7 @@ def home():
 
 @app.route('/get-cv')
 def get_cv():
-    path = 'static/client/pdf/resume.pdf'
+    path = 'static/client/pdf/TaylorLResume.pdf'
     return send_file(path, as_attachment=True)
 
 
